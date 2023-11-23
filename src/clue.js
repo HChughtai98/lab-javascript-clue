@@ -181,6 +181,8 @@ const weaponsArray = [weapon1, weapon2, weapon3, weapon4, weapon5, weapon6, weap
 
 // ITERATION 2
 
+// Copied this code from another Student, wasn't sure how to solve this myself so I commented it out since it doesn't make sense to me. Or at least I wouldn't be able to type it myself.
+
 /* function selectRandom(arr) {
     const randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
