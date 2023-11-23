@@ -181,19 +181,25 @@ const weaponsArray = [weapon1, weapon2, weapon3, weapon4, weapon5, weapon6, weap
 
 // ITERATION 2
 
-function selectRandom(arr) {
+/* function selectRandom(arr) {
     const randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex];
-}
+} */
 
 
 function pickMystery() {
-    return suspect6.firstName;
-
+    const mistery = {
+        suspect: suspect1,
+        weapon: weapon1,
+        room: room1,
+    };
+    return mistery;
 }
-
 
 // ITERATION 3
 
-function revealMystery() {}
+function revealMystery(arg) {
+
+
+}
 
